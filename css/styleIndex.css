@@ -1,0 +1,35 @@
+body{
+    background-image: url(../Images/516512.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+           
+    margin: 0%;
+    margin: auto;
+    left: 0%;
+    right: 100%;
+    top: 92%;
+    position: absolute;
+}
+table, th, td {
+      border:5px inset rgb(16, 26, 36);
+      width: 2550px;
+            height: 100px;
+        }
+       
+        a{
+            color: rgb(228, 24, 17);
+        }
+        h1{
+            text-align: center;
+
+        }
+th{
+  text-transform: uppercase;
+}
+.blanco{
+    color: white;
+
+}
