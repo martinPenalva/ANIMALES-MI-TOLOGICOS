@@ -12,6 +12,7 @@ img{
     right: 100%;
     top: 92%;
     position: absolute;
+    
 }
 table, th, td {
       border:5px inset rgb(16, 26, 36);
@@ -20,7 +21,8 @@ table, th, td {
         }
        
         a{
-            color: rgb(228, 24, 17);
+            color:rgb(32, 174, 218);
+            
         }
         h1{
             text-align: center;
