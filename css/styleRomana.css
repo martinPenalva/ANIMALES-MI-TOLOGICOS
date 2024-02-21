@@ -1,0 +1,39 @@
+p{
+    margin-right: 1100px;
+}
+.Quimera{
+    left: 50%;
+  right: 0%;
+  top: 85%;
+  position: absolute;
+}
+
+.Basilisk{
+    left: 50%;
+  right: 0%;
+  top: 40%;
+  position: absolute;
+}
+
+.Strix{
+    left: 50%;
+  right: 0%;
+  top: 65%;
+  position: absolute;
+
+}
+.Nymphs{
+    left: 50%;
+  right: 0%;
+  top: 105%;
+  position: absolute;
+
+}
+.Griffin{
+    left: 50%;
+  right: 0%;
+  top: 125%;
+  position: absolute;
+  
+
+}

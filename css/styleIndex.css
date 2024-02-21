@@ -16,12 +16,13 @@ img{
 }
 table, th, td {
       border:5px inset rgb(16, 26, 36);
-      width: 2550px;
+      width: 900px;
             height: 100px;
+            
         }
        
         a{
-            color:rgb(32, 174, 218);
+            color:rgb(245, 21, 21);
             
         }
         h1{
