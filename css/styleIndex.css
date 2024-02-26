@@ -4,35 +4,142 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-img{
+.logo{
            
     margin: 0%;
     margin: auto;
     left: 0%;
     right: 100%;
-    top: 92%;
+    top: 0%;
     position: absolute;
-    
+    width: 80px;
+}
+img{
+           
+  margin: 0%;
+  margin: auto;
+  left: 95%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  width: 80px;
 }
 table, th, td {
       border:5px inset rgb(16, 26, 36);
       width: 900px;
-            height: 100px;
+      height: 100px;
+      margin: 0 auto;
             
-        }
-       
-        a{
-            color:rgb(245, 21, 21);
-            
-        }
-        h1{
-            text-align: center;
+        }         
+        
+h1{
+    text-align: center;
 
-        }
+    }
 th{
   text-transform: uppercase;
 }
 .blanco{
     color: white;
 
+}
+ .unoIndex{
+
+   
+    color: rgb(230, 11, 11);
+    font-size: 40px;
+
+     
+}
+ .dosIndex{
+    color:rgb(108, 109, 108) ;
+    font-size: 40px;
+
+ }
+ .tresIndex{
+    color: aqua;
+    font-size: 40px;
+
+    
+ }
+ .cuatroIndex{
+    color: rgb(16, 57, 236);
+    font-size: 40px;
+
+ }
+ .style-1 {
+    border: 10px solid rgb(107, 22, 218);
+    background-color: rgb(77, 238, 250);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    color: black;
+      }
+[class*="col-"] {
+        float: left;
+        padding: 20px;
+      }
+ @media only screen and (max-width: 800px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+.twiter{
+  
+  height:50px;
+  width: 100px;
+  margin: 0%;
+ margin: auto;
+ left: 75%;
+ right: 0%;
+ top: 0%;
+ position: absolute;
+ width: 80px;
+}
+
+.insta{
+  height:50px;
+   width: 100px;
+   margin: 0%;
+  margin: auto;
+  left: 55%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  width: 80px;
+}
+.facebook{
+  height:50px;
+   width: 100px;
+   margin: 0%;
+  margin: auto;
+  left: 65%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  width: 80px;
+}
+.Duolingo{
+  height:50px;
+   width: 100px;
+   margin: 0%;
+  margin: auto;
+  left: 45%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  width: 80px;
+}
+
+.mito{
+  margin: 0%;
+  left: 10%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  width: 130px;
+  border: 10px solid rgb(107, 22, 218);
+background-color: rgb(77, 238, 250);
 }

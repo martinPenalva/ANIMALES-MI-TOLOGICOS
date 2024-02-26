@@ -1,0 +1,35 @@
+p::first-letter{
+    color: rgb(31, 233, 223);
+    font-size: 40px;
+
+  }
+    .style-1 {
+ border: 10px solid rgb(21, 241, 230);
+ background-color: rgb(98, 0, 255);
+ text-align: left;
+ color: rgb(245, 245, 245);
+ padding: 10px;
+ margin: 0 auto;
+
+    }
+    .style-2 {
+ border: 2px dashed  rgb(14, 14, 14);
+ background-color: rgb(90, 97, 86);
+ text-align: left;
+ color: white;
+ margin: 0 auto;
+ padding: 10px;
+    }
+h1{
+    text-align: center;
+}
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

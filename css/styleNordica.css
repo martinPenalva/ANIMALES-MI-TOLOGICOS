@@ -1,0 +1,21 @@
+p::first-letter{
+    color: rgb(31, 233, 223);
+    font-size: 40px;
+
+  }
+    .style-1 {
+ border: 10px solid orange;
+ background-color: rgb(207, 111, 31);
+ text-align: left;
+ color: white;
+ margin-right: 30%;
+ padding: 10px;
+    }
+    .style-2 {
+ border: 2px dashed  rgb(14, 14, 14);
+ background-color: rgb(90, 97, 86);
+ text-align: left;
+ color: white;
+ margin-right: 30%;
+ padding: 10px;
+    }

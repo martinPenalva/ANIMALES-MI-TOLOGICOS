@@ -1,4 +1,4 @@
-p{
+.p{
     margin-right: 1100px;
 }
 .Quimera{
@@ -36,4 +36,29 @@ p{
   position: absolute;
   
 
+}
+p::first-letter{
+  color: rgb(250, 22, 22);
+  font-size: 40px;
+
+}
+  .style-1 {
+border: 10px solid rgb(107, 22, 218);
+background-color: rgb(77, 238, 250);
+text-align: left;
+color: white;
+margin-right: 30%;
+padding: 10px;
+color: black;
+  }
+  .style-2 {
+border: 2px dashed  rgb(14, 14, 14);
+background-color: rgb(90, 97, 86);
+text-align: left;
+color: white;
+margin-right: 30%;
+padding: 10px;
+  }
+body{
+  background-color:rgb(206, 146, 176);
 }

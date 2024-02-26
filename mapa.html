@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+  font-family: "bookman old style";
+}
+
+:target {
+  color: lightyellow;
+  background: indianred;
+}
+
+h3,
+h1 {
+  color: indianred;
+}
+
+
+
+body {
+  counter-reset: srl;
+}
+
+h3::before {
+  counter-increment: srl;
+  content: counter(srl)". ";
+}
+.black{
+  border: 3px dashed rgb(19, 18, 18);
+
+}
+</style>
+</head>
+<body>
+    <h1 style="text-align:center;">The 7 Continents</h1>
+
+
+<h4 style="text-align:center;">&#10148; Click on the dots in the image to go to a continent section</h4>
+
+<map name="continents_map">
+  <area shape="circle" coords="70,70,10" href="#north_america">
+  <area shape="circle" coords="133,185,10" href="#south_america">
+  <area shape="circle" coords="270,137,10" href="#africa">
+  <area shape="circle" coords="292,44,10" href="#europe">
+  <area shape="circle" coords="469,201,10" href="#australia">
+  <area shape="circle" coords="374,65,10" href="#asia">
+  <area shape="circle" coords="340,267,10" href="#antartica">
+</map>
+
+<figure style="text-align:center;">
+  <img  class="black" usemap="#continents_map" src=https://bit.ly/2bgFrvL width="600px" />
+  <figcaption>World Map</figcaption>
+</figure>
+<div>
+  <h3 id="africa">Grootslang  </h3>
+  <p>According to legend, the Grootslang is a primordial creature and as old as the world itself. 
+    The tales say that the gods (who were novices at creating things) made a terrible mistake when 
+    they created the Grootslang because they gave it enormous strength, cunning, and intellect. 
+    Realizing their mistake, the gods split the Grootslang into separate creatures and thus the first elephants
+     and the first snakes were created. But one of the original Grootslangs escaped, and from this first Grootslang
+      all the others were born. It is said to devour elephants by luring them to its cave, which is known as the 
+      "Wonderful Hole" or the "Bottomless Pit." Said cave supposedly connects to the sea, which is about 40 miles away. 
+      According to local legend, the cave is full of diamonds. It is also said to live in warm lakes and rivers.
+    </p>
+    <img  src="Images/BAsiliko.png" width="200px" alt="Grootslang">
+</div>
+
+<div>
+  <h3 id="asia">Seiryū</h3>
+  <p>Seiryū is the Japanese name given to a blue-green dragon, in Japanese mythology, which is part of the four divine monsters. 
+    It is representative of one of the cardinal points, the east. It also symbolizes the element of water and represents spring.
+    ​ In Japanese mythology, he is one of the protectors of the city of Kyoto.
+  </p>
+</div>
+<img src="Images/Dragon_Azul.jpg" width="200px">
+
+<div>
+  <h3 id="europe">Loch Ness Monster</h3>
+  <p>The Loch Ness Monster, commonly called Nessie,1 is the name of a legendary animal said to live in Loch Ness,
+     a deep freshwater lake near the city of Inverness, in Scotland. Along with Bigfoot and Yeti, Nessie is perhaps 
+     the most popular and widespread mystery in cryptozoology.<br>
+    Most scientists and other experts claim that the existence of a creature like the one described by witnesses is highly unlikely.</p>
+</div>
+<img src="Images/Nessie.jpg" width="200px">
+
+<div>
+  <h3 id="south_america">El Chupacabras</h3>
+  <p>El término de chupacabras hace referencia a un críptido legendario,
+     que se describe como un ser que ataca a animales de diferentes especies en zonas ganaderas o rurales chupándole la sangre. 
+     Este mito duró alrededor de 30 años.<br>
+El mito tuvo su origen en Puerto Rico en 1995,​ y desde entonces se han reportado diversos supuestos avistamientos en lugares 
+tan lejanos a la isla en América, e incluso provenientes de países fuera del continente americano, como España, Filipinas y Rusia</p>
+</div>
+<img src="Images/chupacabras.jpg" width="200px">
+
+<div>
+  <h3 id="north_america">Bigfoot</h3>
+  <p>Pie Grande, también conocido como Sasquatch, es un criptido con el aspecto de un primate perteneciente 
+    a la familia de los homínidos, que supuestamente suele verse en bosques a elevadas altitudes, principalmente en la 
+    región del Noroeste del Pacífico en América del Norte.<br> 
+    Sea como fuere, la leyenda dice que este animal emite ruidos parecidos a los de un oso o quizá un gorila, 
+    y aunque algunos 'avistamientos' han sido capaces de localizarle a la luz del día, generalmente los testigos 
+    coinciden en haberlo visto por la noche. También hablan del rojizo brillo de su mirada, similar al de los ojos 
+    de algunos animales nocturnos.
+  </p>
+</div>
+<img src="Images/Bigfoot.jpg" width="200px">
+
+<div>
+  <h3 id="antartica">Kraken</h3>
+  <p>En las sagas y crónicas nórdicas de la Edad Media se menciona a un terrorífico monstruo marino del tamaño de una isla, 
+    que se movía por los mares entre Noruega e Islandia. La saga islandesa de Örvar-Oddr, del siglo XIII, hablaba del «monstruo
+     más grande del mar», que se tragaba «hombres y barcos, e incluso ballenas». Estas intrigantes noticias se retoman en textos
+      posteriores, como la crónica del sueco Olaus Magnus, del siglo XVI, que describía criaturas colosales capaces de hundir un barco.<br>
+      Todo estaría perdido de no ser por el héroe Perseo que, a lomos de su corcel alado, Pegaso, hubo de enfrentarse y vencer al 
+      Kraken mostrándole la cabeza recién decapitada de la gorgona, Medusa, convirtiendo al monstruo en piedra y salvando de la total 
+      aniquilación a todo el mundo.
+  </p>
+</div>
+<img src="Images/Kraken.jpg" width="200px">
+
+<div>
+  <h3 id="australia">Bunyip</h3>
+  <p>With a total land area of 8,560,000 square kilometres (3,310,000 sq mi), the Australian continent is the smallest and lowest-lying human-inhabited continent on Earth. The continental shelf connecting the islands, half of which is less than 50 metres
+    (160 ft) deep, covers some 2,500,000 square kilometres (970,000 sq mi), including the Sahul Shelf and Bass Strait. As the country of Australia is mostly on a single landmass, and comprises most of the continent, it is sometimes informally referred
+    to as an island continent, surrounded by oceans.</p>
+</div>
+<img src="Images/Bunyip.jpg" width="200px">
+
+</body>
+</html>

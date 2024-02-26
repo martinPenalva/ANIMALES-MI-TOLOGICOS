@@ -5,29 +5,68 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/styleIndex.css">
+    <style>
+        
+
+    </style>
 </head>
     <body>
+        <img class="logo"  src="logo.png" width="100px"/>
+
         <h1><B>𝕄𝕐𝕋ℍ𝕆𝕃𝕆𝔾𝕀ℂ𝔸𝕃 𝔸ℕ𝕀𝕄𝔸𝕃𝕊</B></h1>
     
-        <img src="logo.png" width="100px"/>
         <TABLE>
     
                 <tr>
-                    <th><a href="MitologiaGriega.html">Mitologia Griega</a></th>
-                    <th><a href="Nordica.html">Mitologia Nordica</a></th>
+                    
+                    <th><a href="MitologiaGriega.html" class="unoIndex">Mitologia <br> Griega</a></th>
+                    
+                    
+                    <th><a href="Nordica.html" class="dosIndex">Mitologia Nordica</a></th>
+                     
                 </tr>
-    
-    
                 <tr>
-                    <th ><a href="Romana.html">Mitologia Romana</a></th>
-                    <th ><a href="inglesa.html">Mitologia Británica</a></th>
+                    <th ><a href="Romana.html" class="tresIndex">Mitologia Romana</a></th>
+              
+              
+                    <th ><a href="Egipcia.html" class="cuatroIndex">Mitologia <br>Egipcia</a></th>
+            
                 </tr>
     
     
     
     
-        </TABLE>
-        <input type="text" value="Serch for information" id="text" name="text" >
+        </TABLE><br>
+        <div class="style-1">
+        <form action="mapa.html" method="get">
+        <label for="map">HERE ARE THE MOST FAMOUS MONSTER <br>OF EACH COUNTRY IN TE WORLD</label><input id="map" name="map" type="submit">
+        <input type="text" value="Serch for information" id="text" name="text" width="150px" >
+
+        <div class="mito">
+            <label for="Mito">Choose the mithology:</label>
+            <select name="mito" id="mito">
+             <option value="Romana"><a href="Romana.html">Roman Mythology</a></option>
+             <option value="Egypt"><a href="Egipcia.html">Egypt Mythology</a></option>
+            <option value="Greek"><a href="MitologiaGriega.html">Greek Mythology</a></option>
+            <option value="Norse"><a href="Nordica.html">Norse Mythology</a></option>
+            </select>
+        </div>
+  <br><br>
+        </form>
+        <div class="facebook">
+        <p><a href="https://www.facebook.com/?locale=es_ES"><img src="Images/facebook.png"  width="100px"></a></p>
+        </div>
+        <div class="twiter">
+            <p><a href="https://twitter.com/?lang=es"><img src="Images/twiter.png" width="100px"></a></p>
+        </div>
+       <div class="insta">
+       <p><a href="https://www.instagram.com/"><img src="Images/Instagram_logo_2016.svg.webp"  width="100px"></a></p>
+       </div>
+       <div class="Duolingo">
+        <p><a href="https://www.duolingo.com/"><img src="Images/Duolingo.png"  width="100px"></a></p>
+        </div>
+
+    </div>
     </body>
 
 </html>
