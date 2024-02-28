@@ -20,9 +20,7 @@ p::first-letter{
  margin: 0 auto;
  padding: 10px;
     }
-h1{
-    text-align: center;
-}
+
 [class*="col-"] {
   float: left;
   padding: 20px;
@@ -32,4 +30,8 @@ h1{
   [class*="col-"] {
     width: 100%;
   }
+}
+
+body{
+  background-color: rgb(170, 159, 236);
 }

@@ -19,3 +19,17 @@ p::first-letter{
  margin-right: 30%;
  padding: 10px;
     }
+
+    @media only screen and (max-width: 800px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+    }
+    [class*="col-"] {
+      float: left;
+      padding: 20px;
+    }
+    BODY{
+      background-color: rgb(223, 178, 96);
+    }

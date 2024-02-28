@@ -1,0 +1,29 @@
+body {
+    font-family: "bookman old style";
+    background-color: rgb(238, 159, 159);
+  }
+  
+  :target {
+    color: lightyellow;
+    background: indianred;
+  }
+  
+  h3,
+  h1 {
+    color: rgb(206, 29, 29);
+  }
+  
+  
+  
+  body {
+    counter-reset: srl;
+  }
+  
+  h3::before {
+    counter-increment: srl;
+    content: counter(srl)". ";
+  }
+  .black{
+    border: 3px dashed rgb(19, 18, 18);
+  
+  }

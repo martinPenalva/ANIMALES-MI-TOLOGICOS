@@ -60,5 +60,16 @@ margin-right: 30%;
 padding: 10px;
   }
 body{
-  background-color:rgb(206, 146, 176);
+  background-color:rgb(114, 149, 214);
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+[class*="col-"] {
+  float: left;
+  padding: 20px;
 }
