@@ -11,6 +11,17 @@
         background-color: rgb(227, 206, 247);
         
     }
+    div.conditional { 
+	color: white; 
+	background: blue;
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+input:checked + div { 
+	background: green;
+}
 </style>
 
 
@@ -26,8 +37,10 @@
    <label="name"> 🅽🅰🅼🅴 :</label> <input class="purple" value="" type="name" id="name" name="name"required/> <br><br>
    <label="name">🆂🆄🆁🅽🅰🅼🅴🆂  :</label> <input class="purple" value="" type="surnames" id="surnames" name="surnames" required/> <br><br> 
    <label="name">🅱🅸🆁🆃🅷🅳🅰🆃🅴   :</label> <input class="purple" value="" type="date" id="date" name="date"required/> <br><br> 
-   <input  type="checkbox" name="accept" id="accept" value="" required><label="acept"><b>  🅸 🅰🅲🅴🅿🆃 🅰🅻🅻 🆃🅷🅴 🅲🅾🅽🅳🅸🆃🅸🅾🅽🆂 🅾🅵 🆃🅷🅴 🆆🅴🅱🆂🅸🆃🅴  </b></label><br>
-   <input type="submit" value=" 🆂🆄🅱🅼🅸🆃 ">
+   <input type=checkbox required>  🅸 🅰🅲🅴🅿🆃 🅰🅻🅻 🆃🅷🅴 🅲🅾🅽🅳🅸🆃🅸🅾🅽🆂 🅾🅵 🆃🅷🅴 🆆🅴🅱🆂🅸🆃🅴
+<div class="conditional">
+    <input type="submit" value="Enter">
+</div>
    <br><br><br>
 </body>
 </html

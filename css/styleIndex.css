@@ -85,7 +85,7 @@ text-transform: uppercase;
 @media only screen and (max-width: 800px) {
       /* For mobile phones: */
       [class*="col-"] {
-        width: 100%;
+        width: 500%;
       }
     }
 .twiter{
@@ -163,6 +163,7 @@ text-decoration: none;
 .dropdown {
 float: left;
 overflow: hidden;
+top: 0%;
 }
 
 .dropdown .dropbtn {
@@ -209,7 +210,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 150px;
 }
 
 div.gallery:hover {
@@ -225,4 +226,39 @@ div.desc {
   padding: 15px;
   text-align: center;
   background-color: white;
+}
+@media screen and (max-width: 1024px) {
+  body {
+      font-size: 14px; /* Reducir el tamaño de fuente para pantallas medianas */
+  }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 868px) {
+  body {
+      font-size: 30px;
+       /* Reducir aún más el tamaño de fuente para pantallas pequeñas */
+       
+  }
+  table{
+    width: 10px;
+  }
+  h1{
+    color: red;
+   }
+   
+}
+@media screen and (max-width: 468px) {
+  body {
+      font-size: 50px;
+       /* Reducir aún más el tamaño de fuente para pantallas pequeñas */
+       
+  }
+  table{
+    width: 10px;
+  }
+  h1{
+    color: rgb(0, 217, 255);
+   }
+   
 }
